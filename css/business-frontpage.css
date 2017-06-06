@@ -5,25 +5,35 @@
  */
 
 body {
+
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    height: 500px;
+    background: url('../main.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    opacity: 0.8;
+
+
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
     text-shadow: 0 0 10px #000;
-    color: #fff;
+    color: white;
+    background-color: transparent;
+    font-family: 'Josefin Slab', serif;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      border: 3px solid white;
+      color: white;
 }
 
 .img-center {
@@ -32,4 +42,18 @@ body {
 
 footer {
     margin: 50px 0;
+}
+.collapse.navbar-collapse{
+  margin-right: 100px;
+}
+a{
+  background-color: black;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.email{
+  background-color: white;
+  color: black;
 }
