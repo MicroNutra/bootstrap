@@ -12,7 +12,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 600px;
+    height: 700px;
     background: url('../main.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,6 +20,7 @@ body {
     -o-background-size: cover;
     opacity: 0.9;
     display:flex;
+
 }
 
 div.darken {
@@ -67,9 +68,7 @@ a{
   background-color: white;
   color: black;
 }
-.lastpic{
-  margin-top: 30px;
-}
+
 .navbar-brand{
   display:flex;
   margin-top: 15px;
@@ -91,6 +90,11 @@ a{
   width:100vw;
 }*/
 
+img.img-circle.img-responsive.img-center {
+  height: 300px;
+  width: auto;
+}
+
 #signinButton{
   margin-left: 85vw;
   margin-top: -6vw;
@@ -98,4 +102,9 @@ a{
 }
 #microLens{
   margin-top: 20px;
+}
+#aboutButton{
+  margin-left: 73vw;
+  margin-top: -6vw;
+  
 }
