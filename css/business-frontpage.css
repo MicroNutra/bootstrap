@@ -12,7 +12,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 700px;
+    height: 650px;
     background: url('../main.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -61,7 +61,7 @@ a{
   background-color: black;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     color: #fff;
 }
 .email{
@@ -72,7 +72,7 @@ a{
 .navbar-brand{
   display:flex;
   margin-top: 15px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
 }
 .navbar-form.navbar-left{
   margin-top: 25px;
@@ -97,14 +97,17 @@ img.img-circle.img-responsive.img-center {
 
 #signinButton{
   margin-left: 85vw;
-  margin-top: -6vw;
+  margin-top: -6.2vw;
   width:8vw;
 }
 #microLens{
   margin-top: 20px;
 }
 #aboutButton{
-  margin-left: 73vw;
-  margin-top: -6vw;
-  
+  margin-left: 70vw;
+  margin-top: -8vw;
+  width: 500px;
+  height: 300px;
+  padding:14px;
+
 }
