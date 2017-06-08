@@ -55,7 +55,7 @@ footer {
     margin: 50px 0;
 }
 .collapse.navbar-collapse{
-  margin-right: 100px;
+  margin-right: 10px;
 }
 a{
   background-color: black;
@@ -95,19 +95,36 @@ img.img-circle.img-responsive.img-center {
   width: auto;
 }
 
-#signinButton{
-  margin-left: 85vw;
-  margin-top: -6.2vw;
-  width:8vw;
-}
-#microLens{
+.top{
+  display:flex;
+  justify-content:flex-start;
   margin-top: 20px;
 }
-#aboutButton{
-  margin-left: 70vw;
-  margin-top: -8vw;
-  width: 500px;
-  height: 300px;
-  padding:14px;
+.aboutButton{
+  padding: 10px;
+  font-size: 18px;
+  display:flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.rightButtons {
+  display: flex !important;
+  flex-wrap: nowrap;
+}
+
+.signinButton{
+padding: 10px;
+font-size: 18px;
+display:flex;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 10px;
+}
+.buttons{
+display:flex !important;
+justify-content: space-between;
 
 }
